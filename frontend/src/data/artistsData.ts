@@ -75,6 +75,7 @@ export const artistsData: Category = {
         {
             title: 'Frank Miller',
             description: 'American comic book writer/artist, known for "Sin City" and "The Dark Knight Returns"',
+            thumbnail: 'artists/frank-miller.jpg',
             prompts: [
                 "In the style of Frank Miller's graphic novels, using bold, dynamic linework and strong contrasts of light and shadow.",
                 "In the style of Frank Miller's noir aesthetics, creating a moody and atmospheric scene with a dark and gritty tone.",
@@ -130,6 +131,7 @@ export const artistsData: Category = {
         {
             title: 'Art Spiegelman',
             description: 'American cartoonist, editor, and comics advocate, known for "Maus"',
+            thumbnail: 'artists/art-spiegelmann.jpg',
             prompts: [
                 "In the style of Art Spiegelman's graphic novel \"Maus\", employing black and white illustrations with anthropomorphic animal characters to depict historical events.",
                 "In the style of Art Spiegelman's use of symbolism, incorporating visual metaphors and allegorical elements to convey deeper meanings.",
@@ -218,6 +220,7 @@ export const artistsData: Category = {
         {
             title: 'Claude Monet',
             description: 'French Impressionist painter',
+            thumbnail: 'artists/claude-monet.jpg',
             prompts: [
                 "In the style of Claude Monet's impressionistic brushwork, featuring loose and visible brushstrokes that capture the fleeting effects of light and atmosphere.",
                 "In the style of Claude Monet's exploration of color harmonies, depicting scenes with a vibrant and varied color palette to evoke mood and atmosphere.",
@@ -240,6 +243,7 @@ export const artistsData: Category = {
         {
             title: 'Frida Kahlo',
             description: 'Mexican painter',
+            thumbnail: 'artists/frida-kahlo.jpg',
             prompts: [
                 "In the style of Frida Kahlo's intimate and introspective self-portraits, capturing the artist's physical and emotional pain with raw honesty.",
                 "In the style of Frida Kahlo's incorporation of personal symbolism, infusing the image with objects and motifs that represent her cultural heritage and inner struggles.",
@@ -262,6 +266,7 @@ export const artistsData: Category = {
         {
             title: 'Georgia O\'Keeffe',
             description: 'American Modernist painter',
+            thumbnail: 'artists/georgia-o-keeffe.jpg',
             prompts: [
                 "In the style of Georgia O'Keeffe's close-up views of flowers and natural forms, emphasizing the beauty and intricacy of nature through magnified and detailed compositions.",
                 "In the style of Georgia O'Keeffe's minimalist approach, employing simplified and abstracted forms to capture the essence of the subject matter.",
@@ -318,6 +323,7 @@ export const artistsData: Category = {
         {
             title: 'David Hockney',
             description: 'British painter, draughtsman, printmaker',
+            thumbnail: 'artists/david-hockney.jpg',
             prompts: [
                 "In the style of David Hockney's vibrant and colorful landscapes, capturing the beauty of natural scenery with a touch of whimsy.",
                 "In the style of David Hockney's use of multiple perspectives, depicting scenes from different viewpoints to create a sense of depth and movement.",
@@ -351,6 +357,7 @@ export const artistsData: Category = {
         {
             title: 'Francis Bacon',
             description: 'Irish-born British figurative painter',
+            thumbnail: 'artists/francis-bacon.jpg',
             prompts: [
                 "In the style of Francis Bacon's distorted and visceral figures, featuring contorted and haunting portrayals of the human form.",
                 "In the style of Francis Bacon's use of expressive brushwork and texture, creating a sense of rawness and energy within the image.",
@@ -395,6 +402,7 @@ export const artistsData: Category = {
         {
             title: 'Charles M. Schulz',
             description: 'American cartoonist, creator of "Peanuts"',
+            thumbnail: 'artists/charles-m-schulz.jpg',
             prompts: [
                 "In the style of Charles M. Schulz's comic strip \"Peanuts\", featuring simple and expressive character designs with a touch of nostalgia and humor.",
                 "In the style of Charles M. Schulz's emphasis on character development and relationships, capturing the essence of the characters' personalities and interactions within the image.",
@@ -417,6 +425,7 @@ export const artistsData: Category = {
         {
             title: 'Banksy',
             description: 'British street artist',
+            thumbnail: 'artists/banksy.jpg',
             prompts: [
                 "In the style of Banksy's stenciled street art, featuring politically charged and thought-provoking imagery with a touch of satire.",
                 "In the style of Banksy's use of bold and contrasting colors, creating visual impact and drawing attention to the subject matter within the image.",
@@ -428,6 +437,7 @@ export const artistsData: Category = {
         {
             title: 'Diego Rivera',
             description: 'Mexican muralist',
+            thumbnail: 'artists/diego-rivera.jpg',
             prompts: [
                 "In the style of Diego Rivera's muralism, featuring large-scale and politically charged murals that depict social and historical themes.",
                 "In the style of Diego Rivera's attention to detail and meticulous rendering, capturing the texture and characteristics of the subjects with precision.",
@@ -483,6 +493,7 @@ export const artistsData: Category = {
         {
             title: 'Egon Schiele',
             description: 'Austrian figurative painter',
+            thumbnail: 'artists/egon-schiele.jpg',
             prompts: [
                 "In the style of Egon Schiele's expressive and distorted figures, featuring contorted and angular poses that convey a sense of tension and raw emotion.",
                 "In the style of Egon Schiele's use of line and contour, employing bold and confident lines to define the forms and features of the subjects.",
@@ -505,6 +516,7 @@ export const artistsData: Category = {
         {
             title: 'Edvard Munch',
             description: 'Norwegian painter, best known for "The Scream"',
+            thumbnail: 'artists/eduard-munch.jpg',
             prompts: [
                 "In the style of Edvard Munch's expressive and emotionally charged brushwork, capturing the inner turmoil and psychological states of the subjects.",
                 "In the style of Edvard Munch's use of color symbolism, incorporating intense and symbolic colors to convey emotions and psychological tension.",
@@ -560,6 +572,7 @@ export const artistsData: Category = {
         {
             title: 'Cy Twombly',
             description: 'American painter, sculptor, and photographer',
+            thumbnail: 'artists/cy-twombly.jpg',
             prompts: [
                 "In the style of Cy Twombly's gestural and scribbled mark-making, featuring loose and spontaneous lines that evoke a sense of energy and movement.",
                 "In the style of Cy Twombly's use of text and written language, incorporating words, letters, or fragments of poetry within the image.",
@@ -582,6 +595,7 @@ export const artistsData: Category = {
         {
             title: 'Ai Weiwei',
             description: 'Chinese contemporary artist',
+            thumbnail: 'artists/ai-weiwei.jpg',
             prompts: [
                 "In the style of Ai Weiwei's politically charged and socially engaged art, incorporating elements of activism, protest, and social commentary within the image.",
                 "In the style of Ai Weiwei's use of found objects and materials, repurposing everyday items to create art that speaks to issues of identity, culture, and history.",
@@ -604,6 +618,7 @@ export const artistsData: Category = {
         {
             title: 'Anselm Kiefer',
             description: 'German painter and sculptor',
+            thumbnail: 'artists/anselm-kiefer.jpg',
             prompts: [
                 "In the style of Anselm Kiefer's monumental and textured landscapes, featuring large-scale and immersive compositions that evoke a sense of history and mythology.",
                 "In the style of Anselm Kiefer's use of unconventional materials, incorporating elements such as straw, lead, or ashes to add texture and symbolism to the image.",
@@ -670,6 +685,7 @@ export const artistsData: Category = {
         {
             title: 'Bill Watterson',
             description: 'American cartoonist, creator of "Calvin and Hobbes"',
+            thumbnail: 'artists/bill-watterson.jpg',
             prompts: [
                 "In the style of Bill Watterson's comic strip \"Calvin and Hobbes\", featuring imaginative and whimsical scenes with a touch of humor, adventure, and philosophical insights.",
                 "In the style of Bill Watterson's use of expressive and dynamic character designs, capturing the energy and personalities of the characters within the image.",
