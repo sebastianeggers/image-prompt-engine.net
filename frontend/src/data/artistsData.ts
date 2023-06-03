@@ -87,6 +87,7 @@ export const artistsData: Category = {
         {
             title: 'Neil Gaiman',
             description: 'British author, comic book writer, known for "The Sandman"',
+            thumbnail: 'artists/neil-gaiman.jpg',
             prompts: [
                 "In the style of Neil Gaiman's prose, capturing a sense of whimsy and wonder with lyrical descriptions and poetic language.",
                 "In the style of Neil Gaiman's imaginative worlds, creating a fantastical setting with magical creatures and surreal landscapes.",
@@ -98,6 +99,7 @@ export const artistsData: Category = {
         {
             title: 'Osamu Tezuka',
             description: 'Japanese manga artist, creator of "Astro Boy" and "Kimba the White Lion"',
+            thumbnail: 'artists/osamu-tezuka.jpg',
             prompts: [
                 "In the style of Osamu Tezuka's manga, featuring expressive characters with large, emotive eyes and distinct facial features.",
                 "In the style of Osamu Tezuka's storytelling, combining elements of adventure, drama, and moral dilemmas with a touch of whimsy.",
@@ -109,6 +111,7 @@ export const artistsData: Category = {
         {
             title: 'Katsuhiro Otomo',
             description: 'Japanese manga artist, creator of "Akira"',
+            thumbnail: 'artists/katsuhiro-otomo.jpg',
             prompts: [
                 "In the style of Katsuhiro Otomo's detailed linework, showcasing intricate backgrounds and meticulously rendered mechanical designs.",
                 "In the style of Katsuhiro Otomo's futuristic settings, depicting dystopian cityscapes with a mix of cyberpunk and industrial aesthetics.",
@@ -120,6 +123,7 @@ export const artistsData: Category = {
         {
             title: 'Rumiko Takahashi',
             description: 'Japanese manga artist, creator of "InuYasha" and "Ranma 1/2"',
+            thumbnail: 'artists/rumiko-takahashi.jpg',
             prompts: [
                 "In the style of Rumiko Takahashi's manga, featuring expressive and relatable characters with a mix of humor, romance, and supernatural elements.",
                 "In the style of Rumiko Takahashi's comedic timing, capturing lighthearted and humorous situations with exaggerated facial expressions and visual gags.",
@@ -143,6 +147,7 @@ export const artistsData: Category = {
         {
             title: 'Will Eisner',
             description: 'American cartoonist, writer, known for "The Spirit" and pioneer of the graphic novel format',
+            thumbnail: 'artists/will-eisner.jpg',
             prompts: [
                 "In the style of Will Eisner's graphic novels, utilizing dynamic and expressive illustrations to capture the energy and emotion of the story.",
                 "In the style of Will Eisner's use of light and shadow, employing chiaroscuro techniques to create a noir atmosphere and dramatic effect.",
@@ -154,6 +159,7 @@ export const artistsData: Category = {
         {
             title: 'Jack Kirby',
             description: 'American comic book artist, co-creator of many iconic Marvel characters',
+            thumbnail: 'artists/jack-kirby.jpg',
             prompts: [
                 "In the style of Jack Kirby's dynamic compositions, featuring bold and larger-than-life characters in action-packed scenes.",
                 "In the style of Jack Kirby's use of cosmic and futuristic themes, incorporating epic and imaginative settings with cosmic beings and technology.",
@@ -165,6 +171,7 @@ export const artistsData: Category = {
         {
             title: 'Joe Shuster and Jerry Siegel',
             description: 'Creators of "Superman"',
+            thumbnail: 'artists/joe-shuster-jerry-siegel.jpg',
             prompts: [
                 "In the style of Joe Shuster and Jerry Siegel's original Superman comics, featuring a strong and heroic figure with a vibrant and patriotic color scheme.",
                 "In the style of Joe Shuster and Jerry Siegel's classic comic book aesthetic, utilizing bold, clean lines and a sense of dynamic movement.",
@@ -176,6 +183,7 @@ export const artistsData: Category = {
         {
             title: 'Leonardo da Vinci',
             description: 'Italian Renaissance painter',
+            thumbnail: 'artists/leonardo-da-vinci.jpg',
             prompts: [
                 "In the style of Leonardo da Vinci's meticulous drawings, featuring detailed anatomical studies and scientific observations.",
                 "In the style of Leonardo da Vinci's sfumato technique, creating a soft and hazy atmosphere with subtle transitions between light and shadow.",
@@ -187,6 +195,7 @@ export const artistsData: Category = {
         {
             title: 'Michelangelo',
             description: 'Italian Renaissance painter',
+            thumbnail: 'artists/michelangelo.jpg',
             prompts: [
                 "In the style of Michelangelo's powerful and dynamic sculptures, capturing the human form with a sense of strength and movement.",
                 "In the style of Michelangelo's emphasis on muscular anatomy, depicting figures with well-defined musculature and dramatic poses.",
@@ -198,6 +207,7 @@ export const artistsData: Category = {
         {
             title: 'Vincent van Gogh',
             description: 'Dutch Post-Impressionist painter',
+            thumbnail: 'artists/vincent-van-gogh.jpg',
             prompts: [
                 "In the style of Vincent van Gogh's expressive brushwork, featuring bold and visible brushstrokes with vibrant and contrasting colors.",
                 "In the style of Vincent van Gogh's exploration of light and color, depicting scenes with a heightened sense of luminosity and atmospheric effects.",
@@ -209,6 +219,7 @@ export const artistsData: Category = {
         {
             title: 'Rembrandt',
             description: 'Dutch Baroque painter and etcher',
+            thumbnail: 'artists/rembrandt.jpg',
             prompts: [
                 "In the style of Rembrandt's mastery of light and shadow, employing a strong chiaroscuro technique to create a dramatic and atmospheric scene.",
                 "In the style of Rembrandt's use of impasto, incorporating thick and textured brushwork to add depth and tactile quality to the image.",
@@ -232,6 +243,7 @@ export const artistsData: Category = {
         {
             title: 'Salvador Dalí',
             description: 'Spanish Surrealist painter',
+            thumbnail: 'artists/salvador-dali.jpg',
             prompts: [
                 "In the style of Salvador Dalí's surrealistic imagery, featuring dreamlike and bizarre elements that challenge reality and logic.",
                 "In the style of Salvador Dalí's meticulous attention to detail, portraying precise and highly realistic renderings of objects within an otherwise fantastical composition.",
@@ -255,6 +267,7 @@ export const artistsData: Category = {
         {
             title: 'Jackson Pollock',
             description: 'American Abstract Expressionist painter',
+            thumbnail: 'artists/jackson-pollock.jpg',
             prompts: [
                 "In the style of Jackson Pollock's drip painting technique, featuring rhythmic and energetic drips, splatters, and gestures of paint across the canvas.",
                 "In the style of Jackson Pollock's gestural abstraction, using expressive and spontaneous brushwork to create a sense of movement and dynamism.",
@@ -290,6 +303,7 @@ export const artistsData: Category = {
         {
             title: 'Katsushika Hokusai',
             description: 'Japanese ukiyo-e printmaker',
+            thumbnail: 'artists/katsushika-hokusai.jpg',
             prompts: [
                 "In the style of Katsushika Hokusai's ukiyo-e woodblock prints, featuring precise lines, intricate patterns, and vibrant color usage.",
                 "In the style of Katsushika Hokusai's focus on landscapes and nature, portraying majestic mountains, serene waterscapes, and seasonal scenes.",
@@ -301,6 +315,7 @@ export const artistsData: Category = {
         {
             title: 'Qi Baishi',
             description: 'Chinese painter',
+            thumbnail: 'artists/qi-baishi.jpg',
             prompts: [
                 "In the style of Qi Baishi's traditional Chinese brush painting, employing quick and spontaneous brushwork to capture the essence of natural subjects.",
                 "In the style of Qi Baishi's focus on animals and nature, featuring delicate renderings of flowers, birds, insects, and other elements of the natural world.",
@@ -312,6 +327,7 @@ export const artistsData: Category = {
         {
             title: 'MF Husain',
             description: 'Indian Modernist painter',
+            thumbnail: 'artists/mf-husain.jpg',
             prompts: [
                 "In the style of MF Husain's distinctive figurative paintings, featuring elongated and expressive figures with a sense of movement and dynamism.",
                 "In the style of MF Husain's exploration of Indian culture and mythology, incorporating references to Hindu epics, deities, and traditional rituals.",
@@ -335,6 +351,7 @@ export const artistsData: Category = {
         {
             title: 'Joan Miró',
             description: 'Spanish painter, part of the Surrealist movement',
+            thumbnail: 'artists/joan-miro.jpg',
             prompts: [
                 "In the style of Joan Miró's playful and childlike approach, featuring whimsical and imaginative imagery with bold and vibrant colors.",
                 "In the style of Joan Miró's use of symbolic and abstracted forms, incorporating recognizable shapes such as stars, moons, and birds into the image.",
@@ -346,6 +363,7 @@ export const artistsData: Category = {
         {
             title: 'Wassily Kandinsky',
             description: 'Russian abstract painter',
+            thumbnail: 'artists/wassily-kandinsky.jpg',
             prompts: [
                 "In the style of Wassily Kandinsky's abstract expressionism, featuring bold and dynamic compositions with vibrant colors and geometric forms.",
                 "In the style of Wassily Kandinsky's exploration of the spiritual in art, incorporating symbolic and mystical elements into the image.",
@@ -369,6 +387,7 @@ export const artistsData: Category = {
         {
             title: 'Yayoi Kusama',
             description: 'Japanese contemporary artist, known for her Infinity Mirrors',
+            thumbnail: 'artists/yayoi-kusama.jpg',
             prompts: [
                 "In the style of Yayoi Kusama's immersive installations, featuring repetitive patterns, polka dots, and mirrored surfaces to create a sense of infinity and endlessness.",
                 "In the style of Yayoi Kusama's exploration of the self and obliteration of the ego, incorporating self-portraits or reflections within the image.",
@@ -380,23 +399,13 @@ export const artistsData: Category = {
         {
             title: 'Takashi Murakami',
             description: 'Japanese contemporary artist',
+            thumbnail: 'artists/takashi-murakami.jpg',
             prompts: [
                 "In the style of Takashi Murakami's \"Superflat\" aesthetic, featuring flat and graphic imagery inspired by Japanese pop culture, anime, and manga.",
                 "In the style of Takashi Murakami's vibrant and colorful compositions, utilizing a bold and eclectic color palette to create visual impact and energy.",
                 "In the style of Takashi Murakami's use of playful and whimsical characters, incorporating cute and kawaii elements into the image.",
                 "In the style of Takashi Murakami's fusion of traditional and contemporary art forms, combining traditional Japanese motifs and techniques with contemporary pop art sensibilities.",
                 "In the style of Takashi Murakami's exploration of consumerism and mass media, incorporating references to popular brands and consumer products into the image.",
-            ]
-        },
-        {
-            title: 'Osamu Tezuka',
-            description: 'Japanese manga artist, known as the god of manga',
-            prompts: [
-                "In the style of Osamu Tezuka's manga, featuring expressive and dynamic character designs with large eyes and distinct facial features.",
-                "In the style of Osamu Tezuka's storytelling, blending genres and incorporating elements of adventure, drama, and humor within the image.",
-                "In the style of Osamu Tezuka's use of paneling and visual storytelling techniques, creating a sense of rhythm and movement within the composition.",
-                "In the style of Osamu Tezuka's attention to details, portraying intricate backgrounds, costumes, and visual cues that enhance the narrative.",
-                "In the style of Osamu Tezuka's exploration of moral and social themes, incorporating thought-provoking ideas and social commentary into the image.",
             ]
         },
         {
@@ -414,6 +423,7 @@ export const artistsData: Category = {
         {
             title: 'Hergé',
             description: 'Belgian comic artist, creator of "Tintin"',
+            thumbnail: 'artists/herge.jpg',
             prompts: [
                 "In the style of Hergé's ligne claire (clear line) technique, featuring clean and precise outlines with minimal shading or texture.",
                 "In the style of Hergé's adventurous storytelling, portraying exciting and globetrotting narratives with a touch of humor and suspense.",
@@ -449,6 +459,7 @@ export const artistsData: Category = {
         {
             title: 'Édouard Manet',
             description: 'French modernist painter',
+            thumbnail: 'artists/edouard-manet.jpg',
             prompts: [
                 "In the style of Édouard Manet's realistic and naturalistic approach, featuring precise and accurate representations of the subject matter.",
                 "In the style of Édouard Manet's use of bold brushwork and loose handling of paint, creating a sense of spontaneity and liveliness within the image.",
@@ -460,6 +471,7 @@ export const artistsData: Category = {
         {
             title: 'Pierre-Auguste Renoir',
             description: 'French Impressionist painter',
+            thumbnail: 'artists/pierre-auguste-renoir.jpg',
             prompts: [
                 "In the style of Pierre-Auguste Renoir's soft and luminous brushwork, featuring delicate and glowing colors that capture the play of light and atmosphere.",
                 "In the style of Pierre-Auguste Renoir's emphasis on capturing the beauty of human figures and intimate moments, portraying scenes of leisure, social interactions, or portraits of loved ones.",
@@ -471,6 +483,7 @@ export const artistsData: Category = {
         {
             title: 'Marc Chagall',
             description: 'Belarusian-French painter',
+            thumbnail: 'artists/marc-chagall.jpg',
             prompts: [
                 "In the style of Marc Chagall's dreamlike and fantastical imagery, featuring floating figures, vibrant colors, and surreal compositions.",
                 "In the style of Marc Chagall's incorporation of religious and folkloric symbolism, infusing the image with elements of Jewish culture, mythology, and spirituality.",
@@ -482,6 +495,7 @@ export const artistsData: Category = {
         {
             title: 'Gustav Klimt',
             description: 'Austrian symbolist painter',
+            thumbnail: 'artists/gustav-klimt.jpg',
             prompts: [
                 "In the style of Gustav Klimt's intricate and decorative patterns, featuring ornate and geometric motifs that enhance the visual richness of the image.",
                 "In the style of Gustav Klimt's use of gold leaf, incorporating metallic and shimmering elements to create a sense of opulence and luxury.",
@@ -505,6 +519,7 @@ export const artistsData: Category = {
         {
             title: 'Henri Matisse',
             description: 'French painter, known for Fauvism',
+            thumbnail: 'artists/henri-matisse.jpg',
             prompts: [
                 "In the style of Henri Matisse's use of vibrant and bold colors, creating a sense of energy and dynamism within the composition.",
                 "In the style of Henri Matisse's focus on simplified and abstracted forms, using bold and expressive brushwork to capture the essence of the subject matter.",
@@ -528,6 +543,7 @@ export const artistsData: Category = {
         {
             title: 'Paul Klee',
             description: 'Swiss-born German artist',
+            thumbnail: 'artists/paul-klee.jpg',
             prompts: [
                 "In the style of Paul Klee's use of geometric shapes and abstracted forms, incorporating intricate patterns and whimsical elements into the composition.",
                 "In the style of Paul Klee's exploration of color theory, employing harmonious and contrasting color combinations to create visual interest and evoke emotions.",
@@ -539,6 +555,7 @@ export const artistsData: Category = {
         {
             title: 'Willem de Kooning',
             description: 'Dutch American abstract expressionist artist',
+            thumbnail: 'artists/willem-de-kooning.jpg',
             prompts: [
                 "In the style of Willem de Kooning's energetic and gestural brushwork, featuring bold and expressive strokes that convey a sense of movement and spontaneity.",
                 "In the style of Willem de Kooning's exploration of the human figure, portraying abstracted and fragmented forms that challenge traditional representations of the body.",
@@ -550,6 +567,7 @@ export const artistsData: Category = {
         {
             title: 'Norman Rockwell',
             description: 'American painter and illustrator',
+            thumbnail: 'artists/norman-rockwell.jpg',
             prompts: [
                 "In the style of Norman Rockwell's realistic and detailed portrayal of American life, capturing everyday scenes and moments with a touch of nostalgia.",
                 "In the style of Norman Rockwell's emphasis on storytelling, portraying narratives and capturing the personalities and emotions of the characters within the image.",
@@ -561,6 +579,7 @@ export const artistsData: Category = {
         {
             title: 'Rene Magritte',
             description: 'Belgian surrealist artist',
+            thumbnail: 'artists/rene-magritte.jpg',
             prompts: [
                 "In the style of Rene Magritte's surreal and thought-provoking imagery, featuring unexpected and juxtaposed elements that challenge the viewer's perception.",
                 "In the style of Rene Magritte's use of visual puns and wordplay, incorporating symbolic objects or text within the image to convey multiple layers of meaning.",
@@ -584,6 +603,7 @@ export const artistsData: Category = {
         {
             title: 'Yoko Ono',
             description: 'Japanese multimedia artist',
+            thumbnail: 'artists/yoko-ono.jpg',
             prompts: [
                 "In the style of Yoko Ono's conceptual and interactive art, incorporating participatory elements or instructions within the image.",
                 "In the style of Yoko Ono's exploration of feminism and peace activism, infusing the image with themes of empowerment, equality, and social change.",
@@ -607,6 +627,7 @@ export const artistsData: Category = {
         {
             title: 'Gerhard Richter',
             description: 'German visual artist',
+            thumbnail: 'artists/gerhard-richter.jpg',
             prompts: [
                 "In the style of Gerhard Richter's blurred and abstracted forms, featuring soft and atmospheric compositions that evoke a sense of ambiguity and introspection.",
                 "In the style of Gerhard Richter's exploration of photographic realism, incorporating elements of photography and photorealistic techniques within the image.",
@@ -630,6 +651,7 @@ export const artistsData: Category = {
         {
             title: 'Jean-Michel Basquiat',
             description: 'American Neo-Expressionist',
+            thumbnail: 'artists/jean-michel-basquiat.jpg',
             prompts: [
                 "In the style of Jean-Michel Basquiat's expressive and graffiti-inspired art, featuring bold and energetic marks, symbols, and textual elements.",
                 "In the style of Jean-Michel Basquiat's use of fragmented and layered compositions, incorporating disparate and collaged elements within the image.",
@@ -641,6 +663,7 @@ export const artistsData: Category = {
         {
             title: 'Zhang Daqian',
             description: 'Chinese painter',
+            thumbnail: 'artists/zhang-daqian.jpg',
             prompts: [
                 "In the style of Zhang Daqian's traditional Chinese landscape paintings, featuring majestic mountains, flowing rivers, and misty atmospheres with a touch of poetic beauty.",
                 "In the style of Zhang Daqian's use of ink and brushwork, employing a combination of bold and delicate strokes to create texture, depth, and expressive power.",
@@ -652,6 +675,7 @@ export const artistsData: Category = {
         {
             title: 'Stan Lee',
             description: 'American comic book writer, editor, publisher, and co-creator of many iconic Marvel characters',
+            thumbnail: 'artists/stan-lee.jpg',
             prompts: [
                 "In the style of Stan Lee's dynamic and action-packed comic book art, featuring bold and exaggerated poses, expressive facial expressions, and explosive visual effects.",
                 "In the style of Stan Lee's creation of memorable and iconic characters, portraying superheroes or larger-than-life figures within the image.",
@@ -663,6 +687,7 @@ export const artistsData: Category = {
         {
             title: 'Hayao Miyazaki',
             description: 'Japanese animator, filmmaker, and manga artist',
+            thumbnail: 'artists/hayao-miyazaki.jpg',
             prompts: [
                 "In the style of Hayao Miyazaki's imaginative and whimsical animations, featuring enchanting and fantastical landscapes with a touch of magic and wonder.",
                 "In the style of Hayao Miyazaki's attention to detail, portraying intricate and meticulously rendered backgrounds, characters, and environmental elements.",
@@ -674,6 +699,7 @@ export const artistsData: Category = {
         {
             title: 'Moebius',
             description: 'French comic book artist',
+            thumbnail: 'artists/moebius.jpg',
             prompts: [
                 "In the style of Moebius's intricate and detailed sci-fi and fantasy illustrations, featuring otherworldly landscapes, futuristic technology, and fantastical creatures.",
                 "In the style of Moebius's use of flowing and organic lines, creating a sense of movement, rhythm, and a fluidity within the image.",
@@ -697,6 +723,7 @@ export const artistsData: Category = {
         {
             title: 'Kara Walker',
             description: 'American contemporary painter, silhouettist, print-maker',
+            thumbnail: 'artists/kara-walker.jpg',
             prompts: [
                 "In the style of Kara Walker's silhouetted figures, featuring stark and bold contrasts between black and white, highlighting the racial and historical themes within the image.",
                 "In the style of Kara Walker's exploration of power dynamics and the legacy of slavery, infusing the image with narratives that challenge social hierarchies and stereotypes.",
@@ -708,6 +735,7 @@ export const artistsData: Category = {
         {
             title: 'Njideka Akunyili Crosby',
             description: 'Nigerian contemporary visual artist',
+            thumbnail: 'artists/njideka-akunyili-crosby.jpg',
             prompts: [
                 "In the style of Njideka Akunyili Crosby's layered and collaged compositions, incorporating elements of traditional Nigerian culture, personal history, and Western influences.",
                 "In the style of Njideka Akunyili Crosby's exploration of hybrid identities and cultural exchange, infusing the image with themes of migration, globalization, and belonging.",
@@ -719,6 +747,7 @@ export const artistsData: Category = {
         {
             title: 'Marjane Satrapi',
             description: 'Iranian-French graphic novelist, known for "Persepolis"',
+            thumbnail: 'artists/marjane-satrapi.jpg',
             prompts: [
                 "In the style of Marjane Satrapi's graphic novel \"Persepolis\", featuring black-and-white illustrations with a touch of humor, autobiography, and political commentary.",
                 "In the style of Marjane Satrapi's use of expressive and simplified character designs, capturing the emotions and experiences of the characters within the image.",
