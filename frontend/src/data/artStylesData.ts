@@ -40,6 +40,7 @@ export const artStylesData: Category = {
         {
             title: "Renaissance Art",
             description: "A period of rebirth in interest for classical learning and values, leading to new techniques and subject matter",
+            thumbnail: '/artstyles/renaissance.jpg',
             prompts: [
                 "Renaissance Art style, with the lifelike figures, atmospheric perspective, and realistic light effects typical of Renaissance art.",
                 "Renaissance Art style, demonstrating the careful attention to human anatomy and naturalistic scenery found in Renaissance art.",
@@ -56,6 +57,7 @@ export const artStylesData: Category = {
         {
             title: "Mannerism",
             description: "A style of late Renaissance art that emphasized artificiality, clashing colors, and elongated figures",
+            thumbnail: '/artstyles/mannerism.jpg',
             prompts: [
                 "Mannerism style, with the elongated forms, complex compositions, and vivid colors characteristic of Mannerism.",
                 "Mannerism style, displaying the dramatic lighting, intricate detailing, and exaggerated poses typical of Mannerist painting.",
@@ -72,6 +74,7 @@ export const artStylesData: Category = {
         {
             title: "Baroque Art",
             description: "Known for its dramatic lighting, movement, and emotional intensity",
+            thumbnail: '/artstyles/baroque-art.jpg',
             prompts: [
                 "Baroque Art style, embodying the grandeur, drama, and dynamism typical of Baroque art.",
                 "Baroque Art style, showcasing the extravagant detail and powerful contrasts of light and dark characteristic of Baroque art.",
@@ -88,6 +91,7 @@ export const artStylesData: Category = {
         {
             title: "Rococo Art",
             description: "An ornate, playful style known for pastel colors and delicate details",
+            thumbnail: '/artstyles/rococo.jpg',
             prompts: [
                 "Rococo Art style, embodying the lightness, grace, and playful frivolity typical of Rococo art.",
                 "Rococo Art style, showcasing the pastel color palette and decorative ornamentation characteristic of Rococo art.",
@@ -104,6 +108,7 @@ export const artStylesData: Category = {
         {
             title: "Neoclassicism",
             description: "Inspired by the \"classical\" art of Greece and Rome, with emphasis on simplicity and symmetry",
+            thumbnail: '/artstyles/neoclassicism.jpg',
             prompts: [
                 "Neoclassicism style, embodying the grandeur, clarity, and simplicity typical of Neoclassical art.",
                 "Neoclassicism style, showcasing the attention to detail, idealized beauty, and restrained color palette characteristic of Neoclassicism.",
@@ -120,6 +125,7 @@ export const artStylesData: Category = {
         {
             title: "Romanticism",
             description: "Characterized by an emphasis on emotion, imagination, and the sublime aspects of nature",
+            thumbnail: '/artstyles/romanticism.jpg',
             prompts: [
                 "Romanticism style, embodying the emotion, drama, and beauty of nature typical of Romantic art.",
                 "Romanticism style, showcasing the expressive brushwork, vibrant color palette, and dramatic landscapes characteristic of Romanticism.",
@@ -136,6 +142,7 @@ export const artStylesData: Category = {
         {
             title: "Realism",
             description: "A movement that represented subjects truthfully without artifice or grandiosity",
+            thumbnail: '/artstyles/realism.jpg',
             prompts: [
                 "Realism style, embodying the truthful, unidealized depiction typical of Realist art.",
                 "Realism style, showcasing the attention to detail, accurate color, and ordinary subject matter characteristic of Realism.",
@@ -152,6 +159,7 @@ export const artStylesData: Category = {
         {
             title: "Impressionism",
             description: "Known for capturing the fleeting effects of light and color, often outdoors",
+            thumbnail: '/artstyles/impressionism.jpg',
             prompts: [
                 "Impressionism style, embodying the fleeting light, loose brushwork, and everyday scenes typical of Impressionist art.",
                 "Impressionism style, showcasing the vibrant color palette, visible brushstrokes, and emphasis on light characteristic of Impressionism.",
@@ -168,6 +176,7 @@ export const artStylesData: Category = {
         {
             title: "Post-Impressionism",
             description: "Varied styles that all sought to build upon or react against Impressionism, including artists like Van Gogh and Gauguin",
+            thumbnail: '/artstyles/post-impressionism.jpg',
             prompts: [
                 "Post-Impressionism style, embodying the vibrant colors, thick application of paint, and subjective emotions typical of Post-Impressionist art.",
                 "Post-Impressionism style, showcasing the symbolic colors, emotional expressivity, and geometric forms characteristic of Post-Impressionism.",
@@ -184,6 +193,7 @@ export const artStylesData: Category = {
         {
             title: "Symbolism",
             description: "A late 19th-century movement characterized by an emphasis on emotions and ideas, often using symbolic imagery",
+            thumbnail: '/artstyles/symbolism.jpg',
             prompts: [
                 "Symbolism style, embodying the mysterious, symbol-laden, and spiritual aspects typical of Symbolist art.",
                 "Symbolism style, showcasing the allegorical imagery, subjective emotions, and symbolic color characteristic of Symbolism.",
@@ -200,6 +210,7 @@ export const artStylesData: Category = {
         {
             title: "Art Nouveau",
             description: "Characterized by its use of long, sinuous, organic lines and was employed most often in architecture, interior design, jewelry, and glass design",
+            thumbnail: '/artstyles/art-nouveau.jpg',
             prompts: [
                 "Art Nouveau style, embodying the organic forms, decorative motifs, and curved lines typical of Art Nouveau.",
                 "Art Nouveau style, showcasing the stylized nature motifs, flowing lines, and intricate details characteristic of Art Nouveau.",
@@ -216,6 +227,7 @@ export const artStylesData: Category = {
         {
             title: "Fauvism",
             description: "A style of painting with vibrant, non-naturalistic and exuberant colors",
+            thumbnail: '/artstyles/fauvism.jpg',
             prompts: [
                 "Fauvism style, embodying the vibrant color, simplified shapes, and emotional expressiveness typical of Fauvist art.",
                 "Fauvism style, showcasing the non-naturalistic colors, bold brushwork, and simplification of form characteristic of Fauvism.",
@@ -232,6 +244,7 @@ export const artStylesData: Category = {
         {
             title: "Expressionism",
             description: "A style that seeks to express emotional experience rather than impressions of the external world",
+            thumbnail: '/artstyles/expressionism.jpg',
             prompts: [
                 "Expressionism style, evoking the emotional intensity, subjective perspectives, and distorted forms typical of Expressionist art.",
                 "Expressionism style, showcasing the raw emotion, distorted reality, and vivid colors characteristic of Expressionism.",
@@ -248,6 +261,7 @@ export const artStylesData: Category = {
         {
             title: "Cubism",
             description: "A revolutionary style of art created by Picasso and Braque that represented objects from multiple viewpoints",
+            thumbnail: '/artstyles/cubism.jpg',
             prompts: [
                 "Cubism style, embodying the fragmented forms, multiple perspectives, and abstract shapes typical of Cubist art.",
                 "Cubism style, showcasing the geometric abstraction, multiple viewpoints, and simplified forms characteristic of Cubism.",
@@ -264,6 +278,7 @@ export const artStylesData: Category = {
         {
             title: "Futurism",
             description: "An art movement that emphasized speed, technology, youth, and violence, and objects such as the car, the airplane, and the industrial city",
+            thumbnail: '/artstyles/futurism.jpg',
             prompts: [
                 "Futurism style, embodying the dynamic movement, speed, and energy typical of Futurist art.",
                 "Futurism style, showcasing the fragmented forms, technological themes, and sense of movement characteristic of Futurism.",
@@ -280,6 +295,7 @@ export const artStylesData: Category = {
         {
             title: "Dada",
             description: "A movement that questioned long-held assumptions about art, and sought to create anti-art that could defy the expectations of the art establishment",
+            thumbnail: '/artstyles/dada.jpg',
             prompts: [
                 "Dada style, embodying the nonsensical, ironic, and disruptive style typical of Dada art.",
                 "Dada style, showcasing the absurd, provocative, and anti-establishment themes characteristic of Dada.",
@@ -296,6 +312,7 @@ export const artStylesData: Category = {
         {
             title: "Surrealism",
             description: "A movement that sought to explore the irrational, dream-like, and bizarre aspects of the mind",
+            thumbnail: '/artstyles/surrealism.jpg',
             prompts: [
                 "Surrealism style, embodying the dreamlike, illogical, and uncanny style typical of Surrealist art.",
                 "Surrealism style, showcasing the subconscious-inspired, bizarre, and fantastical themes characteristic of Surrealism.",
@@ -312,6 +329,7 @@ export const artStylesData: Category = {
         {
             title: "Abstract Expressionism",
             description: "A post-World War II art movement that emphasized expressive, abstract qualities",
+            thumbnail: '/artstyles/abstract-expressionism.jpg',
             prompts: [
                 "Abstract Expressionism style, embodying the spontaneous, emotive, and non-objective style typical of Abstract Expressionist art.",
                 "Abstract Expressionism style, showcasing the expressive brushwork, abstracted forms, and emotional intensity characteristic of Abstract Expressionism.",
@@ -328,6 +346,7 @@ export const artStylesData: Category = {
         {
             title: "Pop Art",
             description: "Art that uses elements of popular culture, often to critique or examine these elements in new, unexpected ways",
+            thumbnail: '/artstyles/pop-art.jpg',
             prompts: [
                 "Pop Art style, embodying the vibrant, consumer culture-inspired, and iconic style typical of Pop Art.",
                 "Pop Art style, showcasing the mass media imagery, bold colors, and kitschy themes characteristic of Pop Art.",
@@ -344,6 +363,7 @@ export const artStylesData: Category = {
         {
             title: "Minimalism",
             description: "A movement that sought to strip down art to its basic, essential elements",
+            thumbnail: '/artstyles/minimalism.jpg',
             prompts: [
                 "Minimalism style, embodying the pared-down, geometric, and monochromatic style typical of Minimalist art.",
                 "Minimalism style, showcasing the simplicity, reduced forms, and clean lines characteristic of Minimalism.",
@@ -360,6 +380,7 @@ export const artStylesData: Category = {
         {
             title: "Conceptual Art",
             description: "Art where the idea or concept is the most important aspect of the work",
+            thumbnail: '/artstyles/conceptual-art.jpg',
             prompts: [
                 "Conceptual Art style, embodying the idea-driven, challenging, and unconventional style typical of Conceptual art.",
                 "Conceptual Art style, showcasing the intellectual exploration, unconventional mediums, and thought-provoking themes characteristic of Conceptual Art.",
@@ -376,6 +397,7 @@ export const artStylesData: Category = {
         {
             title: "Op Art",
             description: "Art that exploits optical illusions to make the viewer see movement or color changes",
+            thumbnail: '/artstyles/op-art.jpg',
             prompts: [
                 "Op Art style, showcasing the optical illusions, contrasting colors, and geometric shapes typical of Op Art.",
                 "Op Art style, embracing the dizzying patterns, black and white contrast, and hypnotic illusions found in Op Art.",
@@ -392,6 +414,7 @@ export const artStylesData: Category = {
         {
             title: "Photorealism",
             description: "Art that emulates the style of high-resolution photography",
+            thumbnail: '/artstyles/photorealism.jpg',
             prompts: [
                 "Photorealism style, adhering to the high-resolution detail, photographic accuracy, and exact rendering typical of Photorealism.",
                 "Photorealism style, showcasing the meticulous detail, exactitude, and high-definition clarity characteristic of Photorealism.",
@@ -408,6 +431,7 @@ export const artStylesData: Category = {
         {
             title: "Street Art",
             description: "Visual art created in public locations, often unsanctioned but gaining mainstream acceptance over time",
+            thumbnail: '/artstyles/street-art.jpg',
             prompts: [
                 "Street Art style, showcasing the vibrant colors, bold lines, and public commentary typical of Street Art.",
                 "Street Art style, embracing the urban aesthetics, graffiti elements, and large-scale murals found in Street Art.",
@@ -424,6 +448,7 @@ export const artStylesData: Category = {
         {
             title: "Postmodern Art",
             description: "An art movement that arose in the second half of the 20th century as a reaction against modernist formalism",
+            thumbnail: '/artstyles/postmodern.jpg',
             prompts: [
                 "Postmodern art style, featuring the playful irony, appropriation of pop culture, and challenge to traditional narratives characteristic of Postmodern Art.",
                 "Postmodern art style, showcasing the eclectic mix of styles, questioning of authority, and self-referential nature typical of Postmodern Art.",
@@ -440,6 +465,7 @@ export const artStylesData: Category = {
         {
             title: "Digital Art",
             description: "Art that uses digital technology as an essential part of the creative or presentation process",
+            thumbnail: '/artstyles/digital-art.jpg',
             prompts: [
                 "Digital art style, capturing the high-resolution textures, digital manipulation, and virtual aesthetics characteristic of Digital Art.",
                 "Digital art style, showcasing the pixelated detail, software-driven creativity, and vibrant color range inherent in Digital Art.",
@@ -455,6 +481,7 @@ export const artStylesData: Category = {
         },
         {
             title: "Anime Art",
+            thumbnail: '/artstyles/anime-art.jpg',
             prompts: [
                 "Anime art style, showcasing the exaggerated facial expressions, vibrant color palette, and dynamic action scenes typical of Anime Art.",
                 "Anime art style, capturing the detailed backgrounds, stylized character designs, and dramatic lighting characteristic of Anime Art.",
