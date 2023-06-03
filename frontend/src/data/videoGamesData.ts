@@ -5,7 +5,7 @@ export const videoGamesData: Category = {
     styles: [
         {
             title: 'The Legend of Zelda: Breath of the Wild',
-            thumbnail: 'videogames/breath-of-the-wild.jpg',
+            thumbnail: '/videogames/breath-of-the-wild.jpg',
             prompts: [
                 'In the style of "The Legend of Zelda: Breath of the Wild", with vibrant color palettes, soft edges, and cel-shaded visuals for an air of light-hearted fantasy adventure.',
                 'In the style of "The Legend of Zelda: Breath of the Wild", combining detailed, whimsical foreground elements with expansive, impressionistic backdrops.',
@@ -21,7 +21,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Cuphead',
-            thumbnail: 'videogames/cuphead.jpg',
+            thumbnail: '/videogames/cuphead.jpg',
             prompts: [
                 'In the style of "Cuphead", embodying the essence of 1930s cartoons with exaggerated forms, surrealism, bold black outlines, and hand-drawn animations.',
                 'In the style of "Cuphead", showcasing the classic animation style, filled with eccentric characters, bouncing movements, and colorful settings.',
@@ -37,7 +37,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Red Dead Redemption 2',
-            thumbnail: 'videogames/red-dead-redemption-2.jpg',
+            thumbnail: '/videogames/red-dead-redemption-2.jpg',
             prompts: [
                 'In the style of "Red Dead Redemption 2", showcasing the realism of the game with richly detailed environments, atmospheric lighting, and expansive Western landscapes.',
                 'In the style of "Red Dead Redemption 2", highlighting the game\'s cinematic quality with detailed character designs, diverse landscapes, and dramatic lighting.',
@@ -53,7 +53,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Journey',
-            thumbnail: 'videogames/journey.jpg',
+            thumbnail: '/videogames/journey.jpg',
             prompts: [
                 'In the style of "Journey", focusing on the minimalist design, vibrant colors, and cinematic landscapes that create a sense of wonder and discovery.',
                 'In the style of "Journey", showcasing the beautiful contrast of the vividly colored robes against the soft, monochromatic desert landscapes.',
@@ -69,7 +69,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Shadow of the Colossus',
-            thumbnail: 'videogames/shadow-of-the-colossus.jpg',
+            thumbnail: '/videogames/shadow-of-the-colossus.jpg',
             prompts: [
                 'In the style of "Shadow of the Colossus", focusing on the game\'s iconic combination of desolate landscapes, enormous creatures, and a sense of vastness.',
                 'In the style of "Shadow of the Colossus", capturing the contrast between the small, solitary protagonist and the towering, majestic colossi.',
@@ -85,7 +85,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'The Witcher 3: Wild Hunt',
-            thumbnail: 'videogames/the-witcher-3.jpg',
+            thumbnail: '/videogames/the-witcher-3.jpg',
             prompts: [
                 'In the style of "The Witcher 3: Wild Hunt", showcasing the game\'s blend of medieval fantasy with complex characters and richly detailed environments.',
                 'In the style of "The Witcher 3: Wild Hunt", capturing the game\'s sense of epic fantasy with its sprawling landscapes, mystical elements, and diverse characters.',
@@ -101,7 +101,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Cyberpunk 2077',
-            thumbnail: 'videogames/cyberpunk-2077.jpg',
+            thumbnail: '/videogames/cyberpunk-2077.jpg',
             prompts: [
                 'In the style of "Cyberpunk 2077", focusing on the game\'s blend of high - tech elements, neon lights, and gritty cityscapes.',
                 'In the style of "Cyberpunk 2077", capturing the game\'s futuristic, dystopian aesthetic with its vibrant neon lights, high - tech environments, and diverse characters.',
@@ -117,7 +117,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Firewatch',
-            thumbnail: 'videogames/firewatch.jpg',
+            thumbnail: '/videogames/firewatch.jpg',
             prompts: [
                 'In the style of "Firewatch", focusing on the game\'s vibrant color palette, atmospheric lighting, and serene wilderness environments.',
                 'In the style of "Firewatch", capturing the game\'s blend of tranquil wilderness, atmospheric lighting, and simplistic character designs.',
@@ -133,7 +133,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Borderlands 3',
-            thumbnail: 'videogames/borderlands-3.jpg',
+            thumbnail: '/videogames/borderlands-3.jpg',
             prompts: [
                 'In the style of "Borderlands 3", capturing the game\'s iconic cel - shaded art style, exaggerated character designs, and post - apocalyptic landscapes.',
                 'In the style of "Borderlands 3", emphasizing the game\'s vibrant color palette, distinctive cel - shading, and unique, exaggerated character designs.',
@@ -149,7 +149,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'The Last of Us Part II',
-            thumbnail: 'videogames/the-last-of-us-part-2.jpg',
+            thumbnail: '/videogames/the-last-of-us-part-2.jpg',
             prompts: [
                 'In the style of "The Last of Us Part II", focusing on the game\'s highly detailed environments, realistic character designs, and post - apocalyptic landscapes.',
                 'In the style of "The Last of Us Part II", capturing the game\'s blend of atmospheric lighting, detailed environments, and realistic character designs.',
@@ -165,7 +165,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Sea of Thieves',
-            thumbnail: 'videogames/sea-of-thieves.jpg',
+            thumbnail: '/videogames/sea-of-thieves.jpg',
             prompts: [
                 'In the style of "Sea of Thieves", capturing the game\'s vibrant color palette, stylized character designs, and nautical environments.',
                 'In the style of "Sea of Thieves", emphasizing the game\'s sense of high - seas adventure, vibrant colors, and stylized character designs.',
@@ -181,7 +181,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'BioShock Infinite',
-            thumbnail: 'videogames/bioshock-infinite.jpg',
+            thumbnail: '/videogames/bioshock-infinite.jpg',
             prompts: [
                 'In the style of "BioShock Infinite", capturing the game\'s blend of fantastical steampunk elements, unique character designs, and floating city environments.',
                 'In the style of "BioShock Infinite", emphasizing the game\'s unique character designs, fantastical steampunk elements, and floating city landscapes.',
@@ -197,7 +197,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Limbo',
-            thumbnail: 'videogames/limbo.jpg',
+            thumbnail: '/videogames/limbo.jpg',
             prompts: [
                 'In the style of "Limbo", capturing the game\'s signature monochrome palette, minimalist designs, and atmospheric, eerie environments.',
                 'In the style of "Limbo", emphasizing the game\'s monochrome palette, minimalist character designs, and eerie, atmospheric environments.',
@@ -213,7 +213,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Ori and the Blind Forest',
-            thumbnail: 'videogames/ori-and-the-blind-forest.jpg',
+            thumbnail: '/videogames/ori-and-the-blind-forest.jpg',
             prompts: [
                 'In the style of "Ori and the Blind Forest", capturing the game\'s vibrant color palette, enchanting environments, and ethereal character designs.',
                 'In the style of "Ori and the Blind Forest", focusing on the game\'s ethereal character designs, vibrant colors, and enchanting environments.',
@@ -229,7 +229,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Final Fantasy XV',
-            thumbnail: 'videogames/final-fantasy-xv.jpg',
+            thumbnail: '/videogames/final-fantasy-xv.jpg',
             prompts: [
                 'In the style of "Final Fantasy XV", capturing the game\'s signature blend of realistic and fantasy elements, detailed character designs, and vast, immersive environments.',
                 'In the style of "Final Fantasy XV", focusing on the game\'s detailed character designs, blend of realistic and fantasy elements, and immersive, vast environments.',
@@ -245,7 +245,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Celeste',
-            thumbnail: 'videogames/celeste.jpg',
+            thumbnail: '/videogames/celeste.jpg',
             prompts: [
                 'In the style of "Celeste", capturing the game\'s vibrant color palette, 2D pixel art style, and atmospheric environments.',
                 'In the style of "Celeste", focusing on the game\'s 2D pixel art style, vibrant color palette, and atmospheric environments.',
@@ -261,7 +261,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Dark Souls III',
-            thumbnail: 'videogames/dark-souls-3.jpg',
+            thumbnail: '/videogames/dark-souls-3.jpg',
             prompts: [
                 'In the style of "Dark Souls III", capturing the game\'s dark and atmospheric environments, detailed character designs, and gothic aesthetics.',
                 'In the style of "Dark Souls III", focusing on the game\'s detailed character designs, dark and atmospheric environments, and gothic aesthetics.',
@@ -277,7 +277,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Super Mario Odyssey',
-            thumbnail: 'videogames/super-mario-odyssey.jpg',
+            thumbnail: '/videogames/super-mario-odyssey.jpg',
             prompts: [
                 'In the style of "Super Mario Odyssey", capturing the game\'s vibrant color palette, 3D cartoony aesthetic, and imaginative worlds.',
                 'In the style of "Super Mario Odyssey", focusing on the game\'s 3D cartoony aesthetic, vibrant color palette, and imaginative worlds.',
@@ -293,7 +293,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Control',
-            thumbnail: 'videogames/control.jpg',
+            thumbnail: '/videogames/control.jpg',
             prompts: [
                 'In the style of "Control", capturing the game\'s surreal and architectural environments, detailed character designs, and cold color palette.',
                 'In the style of "Control", focusing on the game\'s detailed character designs, surreal and architectural environments, and cold color palette.',
@@ -309,7 +309,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Fez',
-            thumbnail: 'videogames/fez.jpg',
+            thumbnail: '/videogames/fez.jpg',
             prompts: [
                 'In the style of "Fez", capturing the game\'s vibrant color palette, 2D pixel art style, and abstract, geometric worlds.',
                 'In the style of "Fez", focusing on the game\'s 2D pixel art style, vibrant color palette, and abstract, geometric worlds.',
@@ -325,7 +325,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Horizon Zero Dawn',
-            thumbnail: 'videogames/horizon-zero-dawn.jpg',
+            thumbnail: '/videogames/horizon-zero-dawn.jpg',
             prompts: [
                 'In the style of "Horizon Zero Dawn", capturing the game\'s detailed character designs, lush natural environments, and complex mechanical creatures.',
                 'In the style of "Horizon Zero Dawn", focusing on the game\'s lush natural environments, detailed character designs, and complex mechanical creatures.',
@@ -341,7 +341,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Hellblade: Senua\'s Sacrifice',
-            thumbnail: 'videogames/hellblade-senuas-sacrifice.jpg',
+            thumbnail: '/videogames/hellblade-senuas-sacrifice.jpg',
             prompts: [
                 'In the style of "Hellblade: Senua\'s Sacrifice, " capturing the game\'s dark and atmospheric environments, detailed character designs, and surreal visuals.',
                 'In the style of "Hellblade: Senua\'s Sacrifice, " focusing on the game\'s detailed character designs, dark and atmospheric environments, and surreal visuals.',
@@ -357,7 +357,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Minecraft',
-            thumbnail: 'videogames/minecraft.jpg',
+            thumbnail: '/videogames/minecraft.jpg',
             prompts: [
                 'In the style of "Minecraft", capturing the game\'s distinct cubic design, vibrant blocky textures, and the feeling of boundless creativity.',
                 'In the style of "Minecraft", emphasizing the game\'s blocky aesthetics, open - world exploration, and vibrant day - night cycles.',
@@ -373,7 +373,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Subnautica',
-            thumbnail: 'videogames/subnautica.jpg',
+            thumbnail: '/videogames/subnautica.jpg',
             prompts: [
                 'In the style of "Subnautica", capturing the game\'s mesmerizing underwater environments, alien sea creatures, and the thrill of deep - sea exploration.',
                 'In the style of "Subnautica", emphasizing the game\'s luminous marine life, vast oceans, and the sense of solitude amidst the depths.',
@@ -389,7 +389,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Katamari Damacy Reroll',
-            thumbnail: 'videogames/katamari-damacy-reroll.jpg',
+            thumbnail: '/videogames/katamari-damacy-reroll.jpg',
             prompts: [
                 'In the style of "Katamari Damacy Reroll", capturing the game\'s colorful, vibrant world, chaotic physics, and the fun of rolling everything into a giant ball.',
                 'In the style of "Katamari Damacy Reroll", emphasizing the game\'s whimsical design, absurd situations, and the satisfaction of creating massive Katamaris.',
@@ -405,7 +405,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Inside',
-            thumbnail: 'videogames/inside.jpg',
+            thumbnail: '/videogames/inside.jpg',
             prompts: [
                 'In the style of "Inside", capturing the game\'s monochromatic aesthetic, atmospheric lighting, and the tension of its stealth - based gameplay.',
                 'In the style of "Inside", emphasizing the game\'s minimalist design, unsettling atmosphere, and the intrigue of its dystopian world.',
@@ -421,7 +421,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Splatoon 2',
-            thumbnail: 'videogames/splatoon-2.jpg',
+            thumbnail: '/videogames/splatoon-2.jpg',
             prompts: [
                 'In the style of "Splatoon 2", capturing the game\'s vibrant colors, fast - paced action, and the fun of ink - based combat.',
                 'In the style of "Splatoon 2", emphasizing the game\'s cartoony aesthetic, chaotic multiplayer battles, and the joy of turf wars.',
@@ -437,7 +437,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Hades',
-            thumbnail: 'videogames/hades.jpg',
+            thumbnail: '/videogames/hades.jpg',
             prompts: [
                 'In the style of "Hades", capturing the game\'s vibrant color palette, fast - paced combat, and Greek mythological motifs.',
                 'In the style of "Hades", emphasizing the game\'s bold, hand - drawn aesthetics, its roguelike gameplay elements, and the intensity of its underworld battles.',
@@ -453,7 +453,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Stardew Valley',
-            thumbnail: 'videogames/stardew-valley.jpg',
+            thumbnail: '/videogames/stardew-valley.jpg',
             prompts: [
                 'In the style of "Stardew Valley", capturing the game\'s charming pixel art aesthetic, peaceful farming life, and the warmth of its small - town community.',
                 'In the style of "Stardew Valley", emphasizing the game\'s nostalgic visuals, its tranquil rural setting, and the joy of cultivating a thriving farm.',
@@ -469,7 +469,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'God of War',
-            thumbnail: 'videogames/god-of-war.jpg',
+            thumbnail: '/videogames/god-of-war.jpg',
             prompts: [
                 'In the style of "God of War", capturing the game\'s highly detailed realism, intense combat scenarios, and the grandeur of its mythological settings.',
                 'In the style of "God of War", emphasizing the game\'s immersive visual design, its high - stakes combat, and the epic scale of its Norse myth - inspired narrative.',
@@ -485,7 +485,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Hollow Knight',
-            thumbnail: 'videogames/hollow-knight.jpg',
+            thumbnail: '/videogames/hollow-knight.jpg',
             prompts: [
                 'In the style of "Hollow Knight", capturing the game\'s haunting aesthetics, intricate platforming, and the eerie beauty of its subterranean world.',
                 'In the style of "Hollow Knight", emphasizing the game\'s atmospheric visuals, its challenging gameplay, and the mystery of its underground setting.',
@@ -501,7 +501,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Outer Wilds',
-            thumbnail: 'videogames/outer-wilds.jpg',
+            thumbnail: '/videogames/outer-wilds.jpg',
             prompts: [
                 'In the style of "Outer Wilds", capturing the game\'s vast cosmic settings, its atmospheric exploration mechanics, and the mystery of its time - loop narrative.',
                 'In the style of "Outer Wilds", emphasizing the game\'s grand scale, its peaceful yet thrilling space exploration, and the intrigue of its cosmic mystery.',
@@ -517,7 +517,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'DOOM Eternal',
-            thumbnail: 'videogames/doom-eternal.jpg',
+            thumbnail: '/videogames/doom-eternal.jpg',
             prompts: [
                 'In the style of "DOOM Eternal", focusing on the game\'s high - octane action, brutally aggressive combat, and hellishly vibrant landscapes.',
                 'In the style of "DOOM Eternal", capturing the game\'s frenetic pace, its violent and dynamic combat scenarios, and the fiery aesthetics of its otherworldly realms.',
@@ -533,7 +533,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'No Man\'s Sky',
-            thumbnail: 'videogames/no-mans-sky.jpg',
+            thumbnail: '/videogames/no-mans-sky.jpg',
             prompts: [
                 'In the style of "No Man\'s Sky, " capturing the game\'s expansive cosmic vistas, its serene exploration, and the vibrant colors of its procedurally generated planets.',
                 'In the style of "No Man\'s Sky, " emphasizing the game\'s grand cosmic scale, its peaceful yet immersive exploration mechanics, and the vast diversity of its alien ecosystems.',
@@ -549,7 +549,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Death Stranding',
-            thumbnail: 'videogames/death-stranding.jpg',
+            thumbnail: '/videogames/death-stranding.jpg',
             prompts: [
                 'In the style of "Death Stranding", emphasizing the game\'s moody and desolate landscapes, its surreal narrative elements, and the ethereal beauty of its post - apocalyptic environments.',
                 'In the style of "Death Stranding", focusing on the game\'s vast, barren landscapes, its unique narrative structures, and the haunting aesthetics of its dystopian world.',
@@ -565,7 +565,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Carrion',
-            thumbnail: 'videogames/carrion.jpg',
+            thumbnail: '/videogames/carrion.jpg',
             prompts: [
                 'In the style of "Carrion", focusing on the game\'s claustrophobic environments, its gruesome horror elements, and the dark, sinister aesthetics of its monster - centric narrative.',
                 'In the style of "Carrion", capturing the game\'s labyrinthine settings, its grotesque horror aspects, and the bloody aesthetics of its monster - driven gameplay.',
@@ -581,7 +581,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'NieR:Automata',
-            thumbnail: 'videogames/nier-automata.jpg',
+            thumbnail: '/videogames/nier-automata.jpg',
             prompts: [
                 'In the style of "NieR:Automata", emphasizing the game\'s beautiful dystopian landscapes, its emotional narrative beats, and the surreal aesthetics of its post - apocalyptic world.',
                 'In the style of "NieR:Automata", focusing on the game\'s haunting yet beautiful environments, its deep and emotional story elements, and the melancholic aesthetics of its dystopian universe.',
@@ -597,7 +597,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'The Witness',
-            thumbnail: 'videogames/the-witness.jpg',
+            thumbnail: '/videogames/the-witness.jpg',
             prompts: [
                 'In the style of "The Witness", focusing on the game\'s vibrant, cel - shaded environments, its enigmatic puzzle elements, and the serene aesthetics of its secluded island setting.',
                 'In the style of "The Witness", capturing the game\'s bright, minimalist landscapes, its intricate puzzle structures, and the calm, tranquil aesthetics of its isolated island world.',
@@ -613,7 +613,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Okami',
-            thumbnail: 'videogames/okami.jpg',
+            thumbnail: '/videogames/okami.jpg',
             prompts: [
                 'In the style of "Okami", focusing on the game\'s unique sumi - e inspired environments, its rich mythological elements, and the traditional Japanese aesthetics of its divine setting.',
                 'In the style of "Okami", capturing the game\'s beautiful, ink wash landscapes, its wealth of folklore motifs, and the timeless Japanese aesthetics of its celestial world.',
@@ -629,7 +629,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Ghost of Tsushima',
-            thumbnail: 'videogames/ghost-of-tsushima.jpg',
+            thumbnail: '/videogames/ghost-of-tsushima.jpg',
             prompts: [
                 'In the style of "Ghost of Tsushima", emphasizing the game\'s stunning, historical Japanese landscapes, its deep samurai themes, and the striking aesthetics of its feudal world.',
                 'In the style of "Ghost of Tsushima", capturing the game\'s picturesque, Edo period environments, its samurai motifs, and the beautiful aesthetics of its historical setting.',
@@ -645,7 +645,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Overwatch',
-            thumbnail: 'videogames/overwatch.jpg',
+            thumbnail: '/videogames/overwatch.jpg',
             prompts: [
                 'In the style of "Overwatch", focusing on the game\'s vibrant, comic book - inspired environments, its diverse cast of heroes, and the dynamic aesthetics of its futuristic setting.',
                 'In the style of "Overwatch", capturing the game\'s colorful, stylized landscapes, its broad range of characters, and the energetic aesthetics of its future world.',
@@ -661,7 +661,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Hyper Light Drifter',
-            thumbnail: 'videogames/hyper-light-drifter.jpg',
+            thumbnail: '/videogames/hyper-light-drifter.jpg',
             prompts: [
                 'In the style of "Hyper Light Drifter", focusing on the game\'s vibrant, pixel - art environments, its enigmatic storyline, and the haunting aesthetics of its post - apocalyptic setting.',
                 'In the style of "Hyper Light Drifter", capturing the game\'s bold, 16 - bit landscapes, its cryptic plot elements, and the eerie aesthetics of its dystopian world.',
@@ -677,7 +677,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Disco Elysium',
-            thumbnail: 'videogames/disco-elysium.jpg',
+            thumbnail: '/videogames/disco-elysium.jpg',
             prompts: [
                 'In the style of "Disco Elysium", emphasizing the game\'s richly detailed, watercolor - like environments, its complex dialogue, and the grim aesthetics of its dystopian setting.',
                 'In the style of "Disco Elysium", capturing the game\'s intricate, painted landscapes, its extensive dialogue choices, and the bleak aesthetics of its decaying world.',
@@ -693,7 +693,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'The Stanley Parable',
-            thumbnail: 'videogames/the-stanley-parable.jpg',
+            thumbnail: '/videogames/the-stanley-parable.jpg',
             prompts: [
                 'In the style of "The Stanley Parable", capturing the game\'s minimalist, office - like environments, its extensive narrative branches, and the dry, satirical aesthetics of its unique setting.',
                 'In the style of "The Stanley Parable", focusing on the game\'s sparse, workplace - style environments, its deep dialogue choices, and the sarcastic, witty aesthetics of its unconventional world.',
@@ -709,7 +709,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Persona 5',
-            thumbnail: 'videogames/persona-5.jpg',
+            thumbnail: '/videogames/persona-5.jpg',
             prompts: [
                 'In the style of "Persona 5", focusing on the game\'s vibrant, anime - style environments, its high school drama, and the edgy, rebellious aesthetics of its youth - driven world.',
                 'In the style of "Persona 5", capturing the game\'s bold, manga - like landscapes, its interpersonal conflicts, and the stylish, youthful aesthetics of its teenager - oriented setting.',
@@ -725,7 +725,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Undertale',
-            thumbnail: 'videogames/undertale.jpg',
+            thumbnail: '/videogames/undertale.jpg',
             prompts: [
                 'In the style of "Undertale", capturing the game\'s charming, pixel - art environments, its extensive dialogue choices, and the unique, friendly aesthetics of its monster - filled setting.',
                 'In the style of "Undertale", emphasizing the game\'s whimsical, 8 - bit landscapes, its humorous dialogue options, and the welcoming, gentle aesthetics of its creature - laden world.',
@@ -741,7 +741,7 @@ export const videoGamesData: Category = {
         },
         {
             title: 'Halo Infinite',
-            thumbnail: 'videogames/halo-infinite.jpg',
+            thumbnail: '/videogames/halo-infinite.jpg',
             prompts: [
                 'In the style of "Halo Infinite", emphasizing the game\'s expansive, sci - fi environments, its military tactics, and the heroic, epic aesthetics of its interstellar setting.',
                 'In the style of "Halo Infinite", capturing the game\'s vast, space - like landscapes, its strategic combat, and the courageous, grand aesthetics of its galaxy - spanning world.',

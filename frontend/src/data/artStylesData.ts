@@ -6,7 +6,7 @@ export const artStylesData: Category = {
         {
             title: "Islamic Art",
             description: "Known for its geometric patterns, calligraphy, and intricate designs",
-            thumbnail: "artstyles/islamic.jpg",
+            thumbnail: "/artstyles/islamic.jpg",
             prompts: [
                 "Islamic Art style, displaying the intricate geometric patterns and calligraphy characteristic of Islamic art.",
                 "Islamic Art style, reflecting the opulence and complexity found in Islamic decorative art.",
@@ -23,7 +23,7 @@ export const artStylesData: Category = {
         {
             title: "Medieval Art",
             description: "A broad term for European art during the Middle Ages, which includes styles like Romanesque and Gothic",
-            thumbnail: "artstyles/medieval.jpg",
+            thumbnail: "/artstyles/medieval.jpg",
             prompts: [
                 "Medieval Art style, with the iconic narrative scenes and stylized figures characteristic of Medieval art.",
                 "Medieval Art style, presenting the bold colors, gold accents, and religious motifs typical of Medieval art.",

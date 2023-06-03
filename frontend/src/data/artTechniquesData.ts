@@ -5,7 +5,7 @@ export const artTechniquesData: Category = {
   styles: [
     {
       title: "Chiaroscuro",
-      thumbnail: "techniques/chiaroscuro.png",
+      thumbnail: "/techniques/chiaroscuro.png",
       prompts: [
         "Using the deep contrast technique of Chiaroscuro",
         "Emphasizing light and shadow in a Chiaroscuro style",
@@ -31,7 +31,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Sfumato",
-      thumbnail: "techniques/sfumato.jpg",
+      thumbnail: "/techniques/sfumato.jpg",
       prompts: [
         "Utilizing the soft transitions of Sfumato",
         "Incorporating the subtle gradation of tones, Sfumato",
@@ -57,7 +57,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Impasto",
-      thumbnail: "techniques/impasto.png",
+      thumbnail: "/techniques/impasto.png",
       prompts: [
         "Incorporating the thick, textured strokes of Impasto",
         "With the rich, tactile surface of Impasto",
@@ -83,7 +83,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Glazing",
-      thumbnail: "techniques/glazing.png",
+      thumbnail: "/techniques/glazing.png",
       prompts: [
         "Using the luminous layering technique of Glazing",
         "With the depth and vibrancy of Glazing",
@@ -109,7 +109,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Grattage",
-      thumbnail: "techniques/grattage.png",
+      thumbnail: "/techniques/grattage.png",
       prompts: [
         "Incorporating the textural scraping technique of Grattage",
         "With the textured surfaces and layered depth of Grattage",
@@ -135,7 +135,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Tenebrism",
-      thumbnail: "techniques/tenebrism.png",
+      thumbnail: "/techniques/tenebrism.png",
       prompts: [
 
         "intense shadows of Tenebrism.",
@@ -163,7 +163,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Fresco",
-      thumbnail: "techniques/fresco.png",
+      thumbnail: "/techniques/fresco.png",
       prompts: [
 
         "textured, vibrant technique of Fresco.",
@@ -191,7 +191,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Grisaille",
-      thumbnail: "techniques/grisaille.png",
+      thumbnail: "/techniques/grisaille.png",
       prompts: [
 
         "Using the grayscale technique of Grisaille.",
@@ -219,7 +219,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Encaustic",
-      thumbnail: "techniques/encaustic.png",
+      thumbnail: "/techniques/encaustic.png",
       prompts: [
 
         "Using the richly textured technique of Encaustic.",
@@ -247,7 +247,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Pointillism",
-      thumbnail: "techniques/pointillism.png",
+      thumbnail: "/techniques/pointillism.png",
       prompts: [
 
         "Using the dot-based technique of Pointillism.",
@@ -274,7 +274,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Hatching",
-      thumbnail: "techniques/hatching.png",
+      thumbnail: "/techniques/hatching.png",
       prompts: [
         "Using the line-oriented technique of Hatching.",
         "parallel line technique of Hatching.",
@@ -300,7 +300,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Cross-Hatching",
-      thumbnail: "techniques/cross-hatching.png",
+      thumbnail: "/techniques/cross-hatching.png",
       prompts: [
         "Employing the intersecting lines technique of Cross-Hatching.",
         "Infusing the rich texture achieved by Cross-Hatching.",
@@ -326,7 +326,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Stippling",
-      thumbnail: "techniques/stippling.jpg",
+      thumbnail: "/techniques/stippling.jpg",
       prompts: [
         "Using the pointillist technique of Stippling.",
         "dotted texture and gradations of Stippling.",
@@ -352,7 +352,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Underpainting",
-      thumbnail: "techniques/underpainting.png",
+      thumbnail: "/techniques/underpainting.png",
       prompts: [
         "With the foundational color layering of Underpainting.",
         "Drawing inspiration from the tonal groundwork of Underpainting.",
@@ -378,7 +378,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Scumbling",
-      thumbnail: "techniques/scumbling.png",
+      thumbnail: "/techniques/scumbling.png",
       prompts: [
 
         "Scumbling technique for creating a soft glow.",
@@ -406,7 +406,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Trompe-l'oeil",
-      thumbnail: "techniques/tromp-l-oeil.png",
+      thumbnail: "/techniques/tromp-l-oeil.png",
       prompts: [
 
         "Employing the illusionistic technique of Trompe-l'oeil.",
@@ -434,7 +434,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Collage",
-      thumbnail: "techniques/collage.jpg",
+      thumbnail: "/techniques/collage.jpg",
       prompts: [
 
         "Constructed with the varied textures and layering technique of Collage.",
@@ -462,7 +462,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Decoupage",
-      thumbnail: "techniques/decoupage.jpg",
+      thumbnail: "/techniques/decoupage.jpg",
       prompts: [
         "Inspired by the intricate layering and varnish technique of Decoupage.",
         "Decoupage technique for a smooth, polished finish.",
@@ -490,7 +490,7 @@ export const artTechniquesData: Category = {
     {
       title: "Batik",
       description: "Batik is an Indonesian technique of wax-resist dyeing applied to the whole cloth.",
-      thumbnail: "techniques/batik.png",
+      thumbnail: "/techniques/batik.png",
       prompts: [
 
         "resist-dyeing technique and intricate designs of Batik.",
@@ -519,7 +519,7 @@ export const artTechniquesData: Category = {
     {
       title: "Marbling",
       description: "Paper marbling is a method of aqueous surface design, which can produce patterns similar to smooth marble or other kinds of stone.",
-      thumbnail: "techniques/marbling.jpg",
+      thumbnail: "/techniques/marbling.jpg",
       prompts: [
 
         "fluid, swirling patterns of Marbling.",
@@ -548,7 +548,7 @@ export const artTechniquesData: Category = {
     {
       title: "Quilling",
       description: "Quilling is an art form that involves the use of strips of paper that are rolled, shaped, and glued together to create decorative designs. The paper is rolled, looped, curled, twisted, and otherwise manipulated to create shapes that make up designs",
-      thumbnail: "techniques/quilling.jpg",
+      thumbnail: "/techniques/quilling.jpg",
       prompts: [
 
         "intricate, rolled paper technique of Quilling.",
@@ -577,7 +577,7 @@ export const artTechniquesData: Category = {
     {
       title: "Gilding",
       description: "Gilding is a decorative technique for applying a very thin coating of gold over solid surfaces.",
-      thumbnail: "techniques/gilding.jpg",
+      thumbnail: "/techniques/gilding.jpg",
       prompts: [
 
         "radiant and luxurious technique of Gilding.",
@@ -606,7 +606,7 @@ export const artTechniquesData: Category = {
     {
       title: "Sgraffito",
       description: "Sgraffito is a technique produced by applying two successive layers of contrasting glaze, and then scratching so as to reveal parts of the underlying layer.",
-      thumbnail: "techniques/sgraffito.jpg",
+      thumbnail: "/techniques/sgraffito.jpg",
       prompts: [
         "Sgraffito technique for a textured, layered look.",
         "contrast and depth of the Sgraffito method.",
@@ -634,7 +634,7 @@ export const artTechniquesData: Category = {
     {
       title: "Intaglio",
       description: "Intaglio is the family of printing and printmaking techniques in which the image is incised into a surface and the incised line or sunken area holds the ink.",
-      thumbnail: "techniques/intaglio.jpg",
+      thumbnail: "/techniques/intaglio.jpg",
       prompts: [
         "detailed and intricate technique of Intaglio.",
         "depth and texture of the Intaglio method.",
@@ -662,7 +662,7 @@ export const artTechniquesData: Category = {
     {
       title: "Lithography",
       description: "Lithography is a planographic method of printing from a stone (lithographic limestone) or a metal plate with a smooth surface.",
-      thumbnail: "techniques/lithography.jpg",
+      thumbnail: "/techniques/lithography.jpg",
       prompts: [
 
         "Lithography technique for a smooth, tonal look.",
@@ -691,7 +691,7 @@ export const artTechniquesData: Category = {
     {
       title: "Silkscreen Printing",
       description: "Screen printing is a printing technique where a mesh is used to transfer ink or dye onto a substrate, except in areas made impermeable to the ink by a blocking stencil.",
-      thumbnail: "techniques/silk-screen-printing.jpg",
+      thumbnail: "/techniques/silk-screen-printing.jpg",
       prompts: [
         "bold, crisp lines and layered colors characteristic of Silkscreen Printing.",
         "repetition and pattern typical of Silkscreen Printing.",
@@ -719,7 +719,7 @@ export const artTechniquesData: Category = {
     {
       title: "Linocut",
       description: "Linocut is a printmaking technique, a variant of woodcut in which a sheet of linoleum (sometimes mounted on a wooden block) is used for a relief surface.",
-      thumbnail: "techniques/linocut.jpg",
+      thumbnail: "/techniques/linocut.jpg",
       prompts: [
         "bold, graphic designs characteristic of Linocut.",
         "sharp contrasts and expressive lines inherent to Linocut.",
@@ -747,7 +747,7 @@ export const artTechniquesData: Category = {
     {
       title: "Cyanotype",
       description: "The cyanotype is a slow-reacting, economical photographic printing formulation sensitive to a limited near ultraviolet and blue light spectrum. It produces a cyan-blue print used for art as monochrome imagery.",
-      thumbnail: "techniques/cyanotype.jpg",
+      thumbnail: "/techniques/cyanotype.jpg",
       prompts: [
 
         "embodying the deep blues and high contrast of Cyanotype.",
@@ -776,7 +776,7 @@ export const artTechniquesData: Category = {
     {
       title: "Papier-mâché",
       description: "Papier-mâché (literally \"chewed paper\") is a composite material consisting of paper pieces or pulp, sometimes reinforced with textiles, bound with an adhesive, such as glue, starch, or wallpaper paste.",
-      thumbnail: "techniques/papier-mache.jpg",
+      thumbnail: "/techniques/papier-mache.jpg",
       prompts: [
 
         "tactile, sculpted surfaces and multi-dimensional aspects of Papier-mâché.",
@@ -805,7 +805,7 @@ export const artTechniquesData: Category = {
     {
       title: "Origami",
       description: "Origami is the Japanese art of paper folding.",
-      thumbnail: "techniques/origami.jpg",
+      thumbnail: "/techniques/origami.jpg",
       prompts: [
 
         "delicate folds and intricate patterns of Origami.",
@@ -832,7 +832,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Plein Air",
-      thumbnail: "techniques/plein-air.jpg",
+      thumbnail: "/techniques/plein-air.jpg",
       prompts: [
 
         "channeling the immediacy and vibrant colors of Plein Air.",
@@ -859,7 +859,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Perspective Drawing",
-      thumbnail: "techniques/perspective-drawing.jpg",
+      thumbnail: "/techniques/perspective-drawing.jpg",
       prompts: [
 
         "featuring the depth and scale adjustments of Perspective Drawing.",
@@ -887,7 +887,7 @@ export const artTechniquesData: Category = {
     {
       title: "Monotyping",
       description: "Monotyping is a type of printmaking made by drawing or painting on a smooth, non-absorbent surface. The surface, or matrix, was historically a copper etching plate, but in contemporary work it can vary from zinc or glass to acrylic glass.",
-      thumbnail: "techniques/monotyping.jpg",
+      thumbnail: "/techniques/monotyping.jpg",
       prompts: [
 
         "Monotyping-style, unique impressions with rich, soft textures, characteristic of Monotyping.",
@@ -915,7 +915,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Relief Sculpture",
-      thumbnail: "techniques/relief-sculpture.jpg",
+      thumbnail: "/techniques/relief-sculpture.jpg",
       prompts: [
 
         "figures carved into a flat surface that stand out from the background, typical of Relief Sculpture.",
@@ -943,7 +943,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Lost-Wax Casting",
-      thumbnail: 'techniques/lost-wax-casting.png',
+      thumbnail: '/techniques/lost-wax-casting.png',
       prompts: [
 
         "style of Lost-Wax-Casting.",
@@ -955,7 +955,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Ceramic Glazing",
-      thumbnail: "techniques/ceramic-glazing.jpg",
+      thumbnail: "/techniques/ceramic-glazing.jpg",
       prompts: [
 
         "applying a vitreous coating to ceramics for decoration and waterproofing, characteristic of Ceramic Glazing.",
@@ -983,7 +983,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Paper Cutting",
-      thumbnail: "techniques/paper-cutting.png",
+      thumbnail: "/techniques/paper-cutting.png",
       prompts: [
 
         "paper-cutting-style, creating intricate designs by cutting paper style of Paper Cutting.",
@@ -1011,7 +1011,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Stenciling",
-      thumbnail: "techniques/stenciling.png",
+      thumbnail: "/techniques/stenciling.png",
       prompts: [
 
         "Stenciling-style, the use of a template to create a design by applying pigment through the cut-out shapes.",
@@ -1039,7 +1039,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Mosaic",
-      thumbnail: "techniques/mosaic.png",
+      thumbnail: "/techniques/mosaic.png",
       prompts: [
 
         "Mosaic-style, small pieces of colored glass, stone, or other materials to form an image or pattern.",
@@ -1067,7 +1067,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Tapestry",
-      thumbnail: "techniques/tapestry.png",
+      thumbnail: "/techniques/tapestry.png",
       prompts: [
 
         "Tapestry-style, weaving colored threads to create complex pictorial designs.",
@@ -1095,7 +1095,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Charcoal Drawing",
-      thumbnail: "techniques/charcoal.png",
+      thumbnail: "/techniques/charcoal.png",
       prompts: [
 
         "charcoal-style, using charcoal sticks to create dark, intense lines and shadows.",
@@ -1123,7 +1123,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Etching",
-      thumbnail: "techniques/etching.png",
+      thumbnail: "/techniques/etching.png",
       prompts: [
 
         "etching-style, using acid to cut into the unprotected parts of a metal surface to create a design.",
@@ -1151,7 +1151,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Digital Painting",
-      thumbnail: "techniques/digital-painting.png",
+      thumbnail: "/techniques/digital-painting.png",
       prompts: [
         "style of digital paintings, with smooth gradients and blended colors.",
         "bearing the hallmarks of digital artistry, with its hyper-realistic textures and details.",
@@ -1178,7 +1178,7 @@ export const artTechniquesData: Category = {
     },
     {
       title: "Pixel Art",
-      thumbnail: "techniques/pixel-art.png",
+      thumbnail: "/techniques/pixel-art.png",
       prompts: [
         "featuring the charm and retro aesthetic of pixel art.",
         "pixel-perfect precision and nostalgic appeal of pixel art.",
