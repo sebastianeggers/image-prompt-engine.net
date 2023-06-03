@@ -2,16 +2,17 @@ import { Category } from "../types";
 import { artStylesData } from "./artStylesData";
 import { artTechniquesData } from "./artTechniquesData";
 import { artistsData } from "./artistsData";
+import { materialsData } from "./materialsData";
 import { videoGamesData } from "./videoGamesData";
 
 const sortCategoryStylesByTitle = (category: Category) => {
-    // category.styles.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
     category.styles.sort((a,b) => a.title.localeCompare(b.title))
 };
 
 sortCategoryStylesByTitle(artistsData);
 sortCategoryStylesByTitle(artStylesData);
 sortCategoryStylesByTitle(artTechniquesData);
+sortCategoryStylesByTitle(materialsData);
 sortCategoryStylesByTitle(videoGamesData);
 
 export const styleData: Array<Category> = [
@@ -19,4 +20,5 @@ export const styleData: Array<Category> = [
     artStylesData,
     artTechniquesData,
     videoGamesData,
+    materialsData,
 ];

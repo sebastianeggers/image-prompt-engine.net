@@ -7,5 +7,6 @@ export type Style = {
 
 export type Category = {
     title: string,
+    examplePrompt?: string,
     styles: Array<Style>,
 };

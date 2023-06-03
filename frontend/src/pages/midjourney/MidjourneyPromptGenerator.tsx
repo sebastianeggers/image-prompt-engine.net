@@ -3,14 +3,16 @@ import { HStack, Card, CardBody, Button, Input, Tabs, TabList, Tab, TabPanels, T
 import { FC, useEffect, useState } from "react"
 import CopyToClipboard from "react-copy-to-clipboard";
 import { styleData } from "../../data/styleData";
+import { Category } from "../../types";
 
 export const MidjourneyPromptGenerator: FC = () => {
   const [motiveInput, setMotiveInput] = useState("");
   const [activeStylePrompt, setActiveStylePrompt] = useState("");
+  const [activeExamplePrompt, setActiveExamplePrompt] = useState<string | null>(null);
   const [selectableStylePrompts, setSelectableStylePrompts] = useState<Array<string>>([]);
   const [generatedPrompt, setGeneratedPrompt] = useState("");
 
-  const examplePrompt = 'A cat sleeping on a sofa';
+  const defaultExamplePrompt = 'A cat sleeping on a sofa';
 
   useEffect(
     () => {
@@ -22,7 +24,11 @@ export const MidjourneyPromptGenerator: FC = () => {
       const promptParts = [];
 
       promptParts.push(
-        motiveInput.trim().length > 0 ? motiveInput.trim() : examplePrompt
+        motiveInput.trim().length > 0
+          ? motiveInput.trim()
+          : activeExamplePrompt
+          ? activeExamplePrompt
+          : defaultExamplePrompt
       );
 
       if (activeStylePrompt.trim().length > 0) {
@@ -31,13 +37,14 @@ export const MidjourneyPromptGenerator: FC = () => {
 
       setGeneratedPrompt(promptParts.join(', '));
     },
-    [motiveInput, activeStylePrompt]
+    [motiveInput, activeStylePrompt, activeExamplePrompt]
   );
 
-  const onStyleButtonClick = (prompts: Array<string>) => {
+  const onStyleButtonClick = (category: Category, prompts: Array<string>) => {
     const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
     setActiveStylePrompt(randomPrompt);
     setSelectableStylePrompts(prompts);
+    setActiveExamplePrompt( category.examplePrompt ?? null );
   }
 
   const onRegenerateClicked = () => {
@@ -99,7 +106,7 @@ export const MidjourneyPromptGenerator: FC = () => {
                       <Button
                         key={style.title}
                         colorScheme='blue'
-                        onClick={() => onStyleButtonClick(style.prompts)}
+                        onClick={() => onStyleButtonClick(category, style.prompts)}
                         aria-label={style.title}
                         style={{
                           height: 'auto',
