@@ -6,6 +6,7 @@ export const materialsData: Category = {
   styles: [
     {
       title: 'Copper',
+      thumbnail: '/materials/copper.jpg',
       prompts: [
         "Made of weathered copper with the characteristic verdigris patina, shot with a macro lens, showing details of texture and color variance.",
         "Made of polished copper, reflecting warm light, shot with Canon EF 50mm f/1.8 STM, an aesthetic inspired by product photography.",
@@ -21,6 +22,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Diamond',
+      thumbnail: '/materials/diamond.jpg',
       prompts: [
         "Made of gleaming diamonds, a close-up shot, prisms of light captured with a macro lens.",
         "Made of raw diamond, with a rough, uncut texture, shot under dramatic, angled lighting to highlight the facets.",
@@ -36,6 +38,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Iron',
+      thumbnail: '/materials/iron.jpg',
       prompts: [
         "Made of rusted iron, the texture and color variance captured in the late afternoon light.",
         "Made of cast iron, the solid, heavy look emphasized in monochrome, shot with a wide-angle lens.",
@@ -51,6 +54,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Wood',
+      thumbnail: '/materials/wood.jpg',
       prompts: [
         "Made of polished mahogany wood, the grain and color depth accentuated with soft, natural lighting.",
         "Made of driftwood, the weathered texture captured against a coastal backdrop, shot with a wide-angle lens for environmental context.",
@@ -66,6 +70,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Marble',
+      thumbnail: '/materials/marble.jpg',
       prompts: [
         "Made of polished Carrara marble, the cool, smooth texture captured under ambient light.",
         "Made of rugged marble, the weathered details captured in a high dynamic range image.",
@@ -81,6 +86,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Paper-maché',
+      thumbnail: '/materials/paper-mache.jpg',
       prompts: [
         "Made of colorful paper-maché, the vibrant hues accentuated with direct, bright light.",
         "Made of aged paper-maché, the vintage patina captured under warm, diffused light.",
@@ -96,6 +102,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Plastic',
+      thumbnail: '/materials/plastic.jpg',
       prompts: [
         "Made of translucent plastic, the light diffusion showcased under backlit conditions.",
         "Made of colorful plastic beads, the vibrant hues captured in bright, natural light.",
@@ -111,6 +118,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Straw',
+      thumbnail: '/materials/straw.jpg',
       prompts: [
         "Made of golden straw, the warm tones captured under natural sunlight.",
         "Made of straw bales, the rugged texture captured in an environmental shot with wide-angle lens.",
@@ -126,6 +134,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Stone',
+      thumbnail: '/materials/stone.jpg',
       prompts: [
         "Made of polished granite stone, its reflective surface glimmering under studio lights.",
         "Made of rough, raw stones, the textures highlighted in a natural, outdoor setting.",
@@ -141,6 +150,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Opal',
+      thumbnail: '/materials/opal.jpg',
       prompts: [
         "Made of fiery Australian opal, the play-of-color captured in direct sunlight.",
         "Made of raw, uncut opals, their unique shapes highlighted against a dark background.",
@@ -156,6 +166,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Ceramic',
+      thumbnail: '/materials/ceramic.jpg',
       prompts: [
         "Made of glazed ceramic, the reflections and color depth captured under studio lights.",
         "Made of raw, unglazed ceramic, the rough texture highlighted in a natural light setting.",
@@ -171,6 +182,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Bronze',
+      thumbnail: '/materials/bronze.jpg',
       prompts: [
         "Made of polished bronze, the reflective surface captured in a controlled light setting.",
         "Made of aged bronze, the patina and marks of time highlighted with a vintage filter.",
@@ -185,7 +197,24 @@ export const materialsData: Category = {
       ]
     },
     {
+      title: 'Coins',
+      thumbnail: '/materials/coins.jpg',
+      prompts: [
+        "Made of old gold coins, their historic engravings detailed in a close-up shot, evoking a sense of the past.",
+        "Made of shiny new coins, their flawless surfaces reflecting light in a high-contrast image.",
+        "Made of a pile of coins, their chaotic arrangement captured in a wealth-themed image.",
+        "Made of rare coins, their unique features highlighted in a collection-focused composition.",
+        "Made of foreign coins, the different currencies showcased in a travel-themed setting.",
+        "Made of coins spinning, the dynamic motion caught in a high-speed shot.",
+        "Made of coins in water, their shimmering reflections captured in an artistic image.",
+        "Made of coins arranged in a pattern, the geometric design showcased in a top-view shot.",
+        "Made of coins thrown in the air, the spontaneous movement frozen in a fun, dynamic image.",
+        "Made of coins in a coin purse, their everyday use emphasized in a lifestyle-themed composition.",
+      ]
+    },
+    {
       title: 'Cotton',
+      thumbnail: '/materials/cotton.jpg',
       prompts: [
         "Made of fluffy raw cotton, its soft texture emphasized in a cozy, natural light setting.",
         "Made of woven cotton fabric, the weave captured in a close-up shot.",
@@ -201,6 +230,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Gold',
+      thumbnail: '/materials/gold.jpg',
       prompts: [
         "Made of polished gold, its reflective surface captured under studio lights.",
         "Made of raw gold nuggets, their unique shapes highlighted in a close-up shot.",
@@ -216,6 +246,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Yarn',
+      thumbnail: '/materials/yarn.jpg',
       prompts: [
         "Made of colorful yarn balls, their vibrant hues captured in a bright, cheerful composition.",
         "Made of knitted yarn, the pattern and texture highlighted in a cozy, homely setting.",
@@ -231,6 +262,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Slime',
+      thumbnail: '/materials/slime.jpg',
       prompts: [
         "Made of glittery slime, its sparkling particles captured as it stretches.",
         "Made of neon-colored slime, its vibrant color popping against a dark background.",
@@ -246,6 +278,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Shrink Wrap',
+      thumbnail: '/materials/shrink-wrap.jpg',
       prompts: [
         "Made of clear shrink wrap, the plastic stretching over an object, captured in a high-speed shot.",
         "Made of colored shrink wrap, its vibrant hues popping against a contrasting background.",
@@ -261,6 +294,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Quartz',
+      thumbnail: '/materials/quartz.jpg',
       prompts: [
         "Made of rose quartz, its gentle pink color emphasized in a soft, pastel composition.",
         "Made of clear quartz crystals, their clarity and sharp edges captured in a high-resolution image.",
@@ -276,6 +310,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Leather',
+      thumbnail: '/materials/leather.jpg',
       prompts: [
         "Made of aged leather, the weathered texture captured in a detailed close-up.",
         "Made of shiny patent leather, its reflective surface bouncing light in a dramatic manner.",
@@ -291,6 +326,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Gummies',
+      thumbnail: '/materials/gummies.jpg',
       prompts: [
         "Made of colorful gummy bears, their vibrant hues popping in a playful composition.",
         "Made of sour gummy worms, their twisted shapes showcased in a close-up image.",
@@ -306,6 +342,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Latex',
+      thumbnail: '/materials/latex.jpg',
       prompts: [
         "Made of shiny latex, its reflective surface captured under dramatic lighting.",
         "Made of colored latex balloons, their vibrant hues popping in a festive setting.",
@@ -321,6 +358,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Glass',
+      thumbnail: '/materials/glass.jpg',
       prompts: [
         "Made of colored glass, the vibrant hues and transparency emphasized in a backlit composition.",
         "Made of shattered glass, the fragmented pieces captured in a high-speed shot.",
@@ -336,6 +374,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Textile',
+      thumbnail: '/materials/textile.jpg',
       prompts: [
         "Made of soft velvet textile, its luxurious texture showcased in a dramatic, vintage setting.",
         "Made of woven textile, the intricate patterns detailed in a high-resolution image.",
@@ -351,6 +390,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Cardboard',
+      thumbnail: '/materials/cardboard.jpg',
       prompts: [
         "Made of corrugated cardboard, the unique texture showcased in a detailed, macro image.",
         "Made of cardboard cutouts, their silhouettes cast interesting shadows in a studio light setting.",
@@ -366,6 +406,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Brick',
+      thumbnail: '/materials/brick.jpg',
       prompts: [
         "Made of red bricks, their rough texture and warm hue emphasized in a rustic-themed composition.",
         "Made of painted brick, the layers of age and color detailed in a distressed aesthetic image.",
@@ -381,6 +422,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Pitch',
+      thumbnail: '/materials/pitch.jpg',
       prompts: [
         "Made of shining pitch, its glossy texture and deep black color emphasized in a dramatic composition.",
         "Made of pitch roof, its classic design showcased in a historic architectural setting.",
@@ -396,6 +438,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Cogs',
+      thumbnail: '/materials/cogs.jpg',
       prompts: [
         "Made of rusty cogs, their weathered texture and intricate design emphasized in a steampunk-themed composition.",
         "Made of spinning cogs, their motion captured in a high-speed shot.",
@@ -411,6 +454,7 @@ export const materialsData: Category = {
     },
     {
       title: 'Magma',
+      thumbnail: '/materials/magma.jpg',
       prompts: [
         "Made of molten magma, the glowing, flowing movement captured in a dramatic, high-speed shot.",
         "Made of cooled magma rock, its rough texture and interesting shapes showcased in a nature-focused image.",

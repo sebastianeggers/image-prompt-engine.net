@@ -96,12 +96,19 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   comment             = "Some comment"
   default_root_object = "index.html"
 
-  # If there is a 404, return index.html with a HTTP 200 Response
+  # If there is a 404 or 403, return "/" with a HTTP 200 Response
+  custom_error_response {
+    error_caching_min_ttl = 3000
+    error_code            = 403
+    response_code         = 200
+    response_page_path    = "/"
+  }
+
   custom_error_response {
     error_caching_min_ttl = 3000
     error_code            = 404
     response_code         = 200
-    response_page_path    = "/index.html"
+    response_page_path    = "/"
   }
 
   /*
