@@ -1,5 +1,5 @@
 import { QuestionIcon } from "@chakra-ui/icons";
-import { HStack, Card, CardBody, Button, Input, Tabs, TabList, Tab, TabPanels, TabPanel, VStack, Tooltip, Box, Image, Text } from "@chakra-ui/react";
+import { HStack, Card, CardBody, Button, Input, Tabs, TabList, Tab, TabPanels, TabPanel, VStack, Tooltip, Box, Image, Text, Stack } from "@chakra-ui/react";
 import { FC, useEffect, useState } from "react"
 import CopyToClipboard from "react-copy-to-clipboard";
 import { styleData } from "../../data/styleData";
@@ -27,8 +27,8 @@ export const MidjourneyPromptGenerator: FC = () => {
         motiveInput.trim().length > 0
           ? motiveInput.trim()
           : activeExamplePrompt
-          ? activeExamplePrompt
-          : defaultExamplePrompt
+            ? activeExamplePrompt
+            : defaultExamplePrompt
       );
 
       if (activeStylePrompt.trim().length > 0) {
@@ -44,7 +44,7 @@ export const MidjourneyPromptGenerator: FC = () => {
     const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
     setActiveStylePrompt(randomPrompt);
     setSelectableStylePrompts(prompts);
-    setActiveExamplePrompt( category.examplePrompt ?? null );
+    setActiveExamplePrompt(category.examplePrompt ?? null);
   }
 
   const onRegenerateClicked = () => {
@@ -54,7 +54,7 @@ export const MidjourneyPromptGenerator: FC = () => {
 
   return (
     <>
-      <HStack as="header" position="fixed" width="100%" height={170} top={'40px'} zIndex={100}>
+      <HStack as="header" position="sticky" width="100%" top={0} zIndex={120}>
         <Card width={"100%"}>
           <CardBody>
             <HStack justifyContent={"space-between"}>
@@ -65,19 +65,23 @@ export const MidjourneyPromptGenerator: FC = () => {
                     : 'Your generated prompt will appear here'
                 }
               </Text>
-              <HStack>
+              <VStack textAlign="right" alignItems="end">
                 <CopyToClipboard text={generatedPrompt}>
                   <Button
                     colorScheme="blue"
                     isDisabled={generatedPrompt?.trim().length === 0}
-                  >🗋 copy</Button>
+                  >
+                    <Tooltip label="copy">🗋</Tooltip>
+                  </Button>
                 </CopyToClipboard>
                 <Button
                   colorScheme="blue"
                   onClick={onRegenerateClicked}
                   isDisabled={generatedPrompt.length === 0}
-                >⟳ regenerate</Button>
-              </HStack>
+                >
+                  <Tooltip label="regenerate">⟳</Tooltip>
+                </Button>
+              </VStack>
             </HStack>
             <Input
               value={motiveInput}
@@ -88,12 +92,22 @@ export const MidjourneyPromptGenerator: FC = () => {
           </CardBody>
         </Card>
       </HStack>
-      <HStack align="start" justifyContent="space-between" style={{ marginTop: 140 }}>
+
+      <Stack direction={["column-reverse", "column-reverse", "row"]}>
         <Card width={"100%"}>
           <CardBody>
 
             <Tabs>
-              <TabList>
+              <TabList
+                overflowX="scroll"
+                overflowY="hidden"
+                sx={{
+                  scrollbarWidth: 'none',
+                  '::-webkit-scrollbar': {
+                    display: 'none',
+                  },
+                }}
+              >
                 {styleData.map(category => (
                   <Tab key={category.title}>{category.title}</Tab>
                 ))}
@@ -135,7 +149,7 @@ export const MidjourneyPromptGenerator: FC = () => {
             </Tabs>
           </CardBody>
         </Card>
-        <Card minWidth={200} width={200}>
+        <Card width={['100%', '100%', 200]}>
           <CardBody>
             <Box>
               <Text marginBottom={2}>Enter a description of a motive, for example &quot;A cat sleeping on a sofa&quot;.</Text>
@@ -145,7 +159,7 @@ export const MidjourneyPromptGenerator: FC = () => {
             </Box>
           </CardBody>
         </Card>
-      </HStack >
+      </Stack>
     </>
   );
 
