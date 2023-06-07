@@ -196,6 +196,15 @@ resource "aws_route53_record" "record_a" {
   }
 }
 
+resource "aws_route53_record" "txt_records" {
+  zone_id = data.aws_route53_zone.zone.id
+  name    = "@"
+  type    = "TXT"
+  ttl     = "300"
+  count   = length(var.txt_records) > 0 ? 1 : 0
+  records = var.txt_records
+}
+
 output "s3_website_endpoint" {
   value = aws_s3_bucket_website_configuration.example-config.website_endpoint
 }

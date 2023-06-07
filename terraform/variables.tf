@@ -20,3 +20,9 @@ variable "bucket_name" {
   description = "The name of the S3 Bucket. Should be identical to the domain_name"
   type        = string
 }
+
+variable "txt_records" {
+  description = "List of TXT records"
+  type        = list(string)
+  default     = []
+}
